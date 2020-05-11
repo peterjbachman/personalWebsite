@@ -1,15 +1,13 @@
 baseurl = "/"
 title = "Peter Bachman"
-
 theme = "hugo-coder"
-
 languagecode = "en"
 defaultcontentlanguage = "en"
 
 paginate = 20
 canonifyurls = true
 
-pygmentsstyle = "b2"
+pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
@@ -20,8 +18,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "Peter Bachman's personal website"
     keywords = "blog,statistics,politics,personal"
     info = "Statistics, Politics, and maybe Religion"
-    avatarurl = "images/profile.jpg"
-    #gravatar = "john.doe@example.com"
+    avatarurl = "images/profile.png"
     footercontent = "Change This Later."
 
     dateformat = "January 2, 2006"
@@ -68,28 +65,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "https://twitter.com/peterjbachman/"
 
 
-[languages]
-    [languages.en]
-        languagename = "English"
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
 
-        [languages.en.menu]
+[[menu.main]]
+  name = "Blog"
+  weight = 2
+  url = "posts/"
 
-            [[languages.en.menu.main]]
-            name = "About"
-            weight = 1
-            url = "about/"
-
-            [[languages.en.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
-
-            [[languages.en.menu.main]]
-            name = "Projects"
-            weight = 3
-            url = "projects/"
-
-            [[languages.en.menu.main]]
-            name = "Contact me"
-            weight = 5
-            url = "contact/"
+[[menu.main]]
+  name = "Projects"
+  weight = 3
+  url = "projects/"
