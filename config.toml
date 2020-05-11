@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "/"
 title = "Peter Bachman"
 
 theme = "hugo-coder"
@@ -6,20 +6,23 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-paginate = 5
+paginate = 20
 canonifyurls = true
 
 pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
 [params]
     author = "Peter Bachman"
-    description = "Peter's Personal Website"
-    keywords = "blog,statistics,personal,personal"
-    info = "Political Statistics and Whatever Else"
-    avatarurl = "images/profile.png"
-    footercontent = "Something will go here."
+    description = "Peter Bachman's personal website"
+    keywords = "blog,statistics,politics,personal"
+    info = "Statistics, Politics, and maybe Religion"
+    avatarurl = "images/profile.jpg"
+    #gravatar = "john.doe@example.com"
+    footercontent = "Change This Later."
 
     dateformat = "January 2, 2006"
 
@@ -43,18 +46,6 @@ pygmentscodefencesguesssyntax = true
     # Series see also post count
     maxSeeAlsoItems = 5
 
-    # Custom CSS
-    custom_css = []
-
-    # Custom JS
-    custom_js = []
-
-# If you want to use fathom(https://usefathom.com) for analytics, add this section
-[params.fathomAnalytics]
-    siteID = "ABCDE"
-    # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
-    serverURL = "analytics.example.com"
-
 [taxonomies]
   category = "categories"
   series = "series"
@@ -64,7 +55,7 @@ pygmentscodefencesguesssyntax = true
     name = "Github"
     icon = "fab fa-github"
     weight = 1
-    url = "https://github.com/johndoe/"
+    url = "https://github.com/peterjbachman/"
 [[params.social]]
     name = "Gitlab"
     icon = "fas fa-envelope"
