@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap');
 /* Markdown */
 :root{
---maincolor: red;
---bordercl:rebeccapurple;
---callouctcolor:dodgerblue;
---hovercolor:navy;
+--maincolor: green;
+--bordercl:green;
+--callouctcolor:green;
+--hovercolor:green;
 --darkMaincolor: #50fa7b;
 }
 html {
   color: #232333;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Fira Sans';
   font-size: 15px;
   line-height: 1.6em;
 }
@@ -28,7 +28,7 @@ body{
 }
 
 p {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Fira Sans';
   line-height: 1.5;
 }
 

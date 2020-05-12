@@ -1,0 +1,48 @@
+---
+title: "Tidy Tuesday - 05/12/20"
+author: "Peter Bachman"
+date: 2020-05-12
+description: Working with Tidy Tuesday Data
+categories: ["R"]
+tags: ["Tidy Tuesday"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+
+# load library
+library(tidyverse)
+
+# read and load data
+tuesdata <- tidytuesdayR::tt_load('2020-05-12')
+
+volcano <- tuesdata$volcano
+eruptions <- tuesdata$eruptions
+events <- tuesdata$events
+tree_rings <- tuesdata$tree_rings
+sulfur <- tuesdata$sulfur
+
+```
+
+# First attempt at Tidy Tuesday
+
+After reading in the data, which can be found [here](https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-05-12), we are ready to see what we got!
+
+```{r}
+
+
+```
+
+# Including Plots
+
+You can also embed plots. See Figure \@ref(fig:pie) for example:
+
+```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
+par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
+  col = c('#0292D8', '#F7EA39', '#C4B632'),
+  init.angle = -50, border = NA
+)
+```

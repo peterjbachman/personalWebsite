@@ -7,10 +7,13 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+paginate = 3
+
 [params]
 	mode="auto"
 	featherIconsCDN=true
-	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
+	subtitle = "Politics, Statistics, and anything else"
 
 [[params.social]]
 name = "GitHub"

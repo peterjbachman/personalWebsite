@@ -1,0 +1,33 @@
+---
+title: "Tidy Tuesday - 05/12/20"
+author: "Peter Bachman"
+date: 2020-05-12
+description: Working with Tidy Tuesday Data
+categories: ["R"]
+tags: ["Tidy Tuesday"]
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<div id="first-attempt-at-tidy-tuesday" class="section level1">
+<h1>First attempt at Tidy Tuesday</h1>
+<p>After reading in the data, which can be found <a href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-05-12">here</a>, we are ready to see what we got!</p>
+</div>
+<div id="including-plots" class="section level1">
+<h1>Including Plots</h1>
+<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
+<pre class="r"><code>par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
+  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
+  init.angle = -50, border = NA
+)</code></pre>
+<div class="figure"><span id="fig:pie"></span>
+<img src="/post/tidyTuesday_05122020_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<p class="caption">
+Figure 1: A fancy pie chart.
+</p>
+</div>
+</div>

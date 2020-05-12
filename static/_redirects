@@ -1,0 +1,3 @@
+http://peterjbachman.rbind.io/*    https://peterjbachman.rbind.io/:splat  301!
+https://peterjbachman.netlify.com/*  https://peterjbachman.rbind.io/:splat  301!
+http://peterjbachman.netlify.com/*   https://peterjbachman.rbind.io/:splat  301!

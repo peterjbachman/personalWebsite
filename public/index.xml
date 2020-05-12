@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>Tidy Tuesday - 05/12/20</title>
+      <link>/post/tidytuesday_05122020/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tidytuesday_05122020/</guid>
+      <description>First attempt at Tidy Tuesday After reading in the data, which can be found here, we are ready to see what we got!
+ Including Plots You can also embed plots. See Figure 1 for example:
+par(mar = c(0, 1, 0, 1)) pie( c(280, 60, 20), c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;), col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;), init.angle = -50, border = NA )  Figure 1: A fancy pie chart.</description>
+    </item>
+    
+    <item>
       <title>Telegram Bot for  GitHub Actions</title>
       <link>/posts/tg-gh/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
@@ -113,17 +124,6 @@ Until I didn’t. It turns out procrastinating caused me to miss deadlines, over
 We are afraid of empty space in our lives.
 The result is often a continual busyness, constant distraction and avoidance, lack of focus, lack of satisfaction with our lives.
 We run from silence. We run from the spaces between tasks and appointments. We run from solitude and stillness.</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
     </item>
     
   </channel>
