@@ -1,50 +1,7 @@
-baseURL = "/"
-languageCode = "en-us"
-title = "Peter Bachman"
-theme = "archie"
-copyright = "© Peter Bachman"
-pygmentsstyle = "monokai"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-
-paginate = 3
-
-[params]
-	mode="auto"
-	featherIconsCDN=true
-	subtitle = "Politics, Statistics, and anything else"
-
-[[params.social]]
-name = "GitHub"
-icon = "github"
-url = "https://github.com/peterjbachman"
-
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/peterjbachman"
-
-[[params.social]]
-name = "Email"
-icon = "mail"
-url = "mailto:peter.j.bachman@gmail.com"
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 2
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
+# Academic Website Builder
+# https://sourcethemes.com/academic/
+#
+# The presence of this file is for compatibility with Blogdown and Forestry.
+# If you are not using those tools, this file may be deleted.
+#
+# The actual configuration files are stored in the `config/_default/` folder.
