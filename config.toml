@@ -2,15 +2,12 @@ baseurl = "https://peterjbachman.rbind.io"
 languageCode = "en-us"
 title = "Peter Bachman"
 theme = "hugo-ivy"
-# googleAnalytics = ""
-# disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
-    note = "/note/:year/:month/:day/:slug/"
 
 [[menu.main]]
     name = "Home"
@@ -36,6 +33,7 @@ footnotereturnlinkcontents = "↩"
 
 [params]
     description = ""
+    avatar = "images/avatar.png"
     footer = "&copy; Peter Bachman 2020 | [Github](https://github.com/peterjbachman) | [Twitter](https://twitter.com/peterjbachman)"
 
   highlightjsVersion = "9.12.0"

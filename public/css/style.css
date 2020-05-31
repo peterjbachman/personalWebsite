@@ -208,6 +208,10 @@ body {
   content: "•\00a\000a0\00a0"
 }
 
+.masthead .image {
+  border-radius: 50%
+}
+
 /* Main */
 
 .main .title h1 {
