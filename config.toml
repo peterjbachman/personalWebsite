@@ -28,12 +28,11 @@ footnotereturnlinkcontents = "↩"
     
 [[menu.main]]
     name = "CV"
-    url = "files/cv.pdf"
+    url = "/files/cv.pdf"
     weight = 5
 
 [params]
     description = ""
-    avatar = "images/avatar.png"
     footer = "&copy; Peter Bachman 2020 | [Github](https://github.com/peterjbachman) | [Twitter](https://twitter.com/peterjbachman)"
 
   highlightjsVersion = "9.12.0"
