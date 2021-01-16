@@ -23,9 +23,8 @@ paginate = 5
 
 [params]
   author = "Peter Bachman"
-  avatar = "images/avatar.png"
   description = "Undergraduate at Utah State University. Political Science and Statistics. I'm interested in the effects communication has on political institutions and elections."
-  menu_item_separator = " - "
+  avatar = "images/avatar.png"
   [[params.social]]
     name = "github"
     url = "https://github.com/peterjbachman"
