@@ -4,7 +4,7 @@ defaultContentLanguage: en
 title: Peter Bachman
 theme: cupper-hugo-theme
 enableGitInfo: true
-googleAnalytics: G-CX16GW6PZY
+googleAnalytics: UA-187658922-1
 
 taxonomies:
   tag: tags
