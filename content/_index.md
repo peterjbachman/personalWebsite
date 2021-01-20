@@ -1,7 +1,5 @@
 # Home
 
-![](/images/avatar_circle.png)
-
 Hi and welcome to my website!
 
 I'm Peter, and I'm currently an undergraduate student at Utah State University. I expect to receive a B.A. in Political Science this coming spring.
