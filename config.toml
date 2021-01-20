@@ -1,7 +1,7 @@
-baseURL = "https://example.com"
+baseURL = "https://peterjbachman.rbind.io"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Website of Jane Doe"
+title = "Website of Peter Bachman"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
@@ -11,7 +11,7 @@ enableRobotsTXT = true
 #disqusShortname = ""
 
 # Google Analytics
-#googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-187658922-1"
 
 # Syntax highlighting
 pygmentsUseClasses = true
@@ -19,11 +19,11 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
 [params]
-title = "I'm Jane Doe"
-author = "Jane Doe"
+title = "I'm Peter Bachman"
+author = "Peter Bachman"
 #copyright = "2020-2021"
-description = "Call me Jane"
-profilePicture = "images/profile.jpg"
+description = "Call me Peter"
+profilePicture = "images/avatar.png"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
@@ -53,24 +53,24 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 ## Social links
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
 [[params.socialIcons]]
-icon = "fab fa-linkedin"
-title = "Linkedin"
-url = "https://de.linkedin.com/"
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/peterjbachman"
 
 [[params.socialIcons]]
 icon = "fab fa-github"
 title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
-
-[[params.socialIcons]]
-icon = "fab fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/"
+url = "https://github.com/peterjbachman"
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:mail@alexbilz.com"
+url = "mailto:peter.j.bachman@gmail.com"
+
+[[params.socialIcons]]
+icon = "fab fa-spotify"
+title = "Spotify"
+url = "https://open.spotify.com/user/x5xyifk4f697kabe2mm1u95p5?si=pFRMGhfAQzKed1worpmy2w"
 
 ## Menu items
 
@@ -95,7 +95,7 @@ url = "mailto:mail@alexbilz.com"
   url = "/about/"
 
   [[menu.main]]
-  name = "Contact"
+  name = "CV"
   weight = 400
-  identifier = "contact"
-  url = "/contact/"
+  identifier = "cv"
+  url = "/files/cv.pdf"
