@@ -3,9 +3,9 @@ languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Website of Peter Bachman"
 theme = "anatole"
-summarylength = 10
-enableEmoji = true
-enableRobotsTXT = true
+summarylength = 3
+enableEmoji = false
+enableRobotsTXT = false
 
 # Enable Disqus
 #disqusShortname = ""
@@ -27,12 +27,13 @@ profilePicture = "images/dithered_circle.png"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
-customCss = []
+# customCss = ["css/custom.css"]
 # example ["js/custom.js"]
-customJs = [] 
-mainSections = ["post"]
+# customJs = [] 
+mainSections = ["research"]
 images = ["images/site-feature-image.png"]
-doNotLoadAnimations = false
+doNotLoadAnimations = true
+displayMode = "dark"
 # Form Spree Contact Form
 #contactFormAction = "https://formspree.io/f/your-form-hash-here"
 # Google Site Verify
@@ -86,7 +87,7 @@ url = "https://open.spotify.com/user/x5xyifk4f697kabe2mm1u95p5?si=pFRMGhfAQzKed1
   name = "Posts"
   weight = 200
   identifier = "posts"
-  url = "/post/"
+  url = "/posts/"
 
   [[menu.main]]
   name = "About"
@@ -99,3 +100,10 @@ url = "https://open.spotify.com/user/x5xyifk4f697kabe2mm1u95p5?si=pFRMGhfAQzKed1
   weight = 400
   identifier = "cv"
   url = "/files/cv.pdf"
+  
+  
+  [[menu.main]]
+  name = "Research"
+  weight = 500
+  identifier = "research"
+  url = "/research/"
