@@ -9,4 +9,4 @@ I'm currently applying for PhD programs, and hope to become a professor at a
 university. My research interests include voter turnout, voter behavior, mass
 communication, manipulation tactics, and political psychology.
 
-# Recent Research Projects
+# Recent Research
