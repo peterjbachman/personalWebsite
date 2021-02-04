@@ -8,5 +8,7 @@ tags:
   - research
   - presentation
 thumbnail: "images/japan_voter_turnout.png"
+
 ---
+
 
