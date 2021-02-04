@@ -27,13 +27,14 @@ profilePicture = "images/dithered_circle.png"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
-# customCss = ["css/custom.css"]
+customCss = ["css/custom.css"]
 # example ["js/custom.js"]
 # customJs = [] 
 mainSections = ["research"]
 images = ["images/site-feature-image.png"]
 doNotLoadAnimations = true
 displayMode = "dark"
+disableThemeSwitcher = true
 # Form Spree Contact Form
 #contactFormAction = "https://formspree.io/f/your-form-hash-here"
 # Google Site Verify
