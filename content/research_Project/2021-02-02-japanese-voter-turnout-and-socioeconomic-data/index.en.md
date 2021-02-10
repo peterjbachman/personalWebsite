@@ -11,4 +11,7 @@ thumbnail: "images/japan_voter_turnout.png"
 
 ---
 
+This research was done as part of my POLS 5000 - Political Analysis class at
+Utah State University.
 
+Presentation can be found [here](/files/japanese_voter_turnout.pdf)
