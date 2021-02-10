@@ -3,7 +3,7 @@ languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Website of Peter Bachman"
 theme = "anatole"
-summarylength = 3
+summarylength = 0
 enableEmoji = false
 enableRobotsTXT = false
 
