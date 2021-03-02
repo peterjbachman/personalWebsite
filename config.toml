@@ -27,7 +27,7 @@ favicon = "favicons/"
 customCss = ["css/custom.css"]
 # example ["js/custom.js"]
 # customJs = [] 
-mainSections = ["research_Project"]
+mainSections = ["research"]
 images = ["images/site-feature-image.png"]
 doNotLoadAnimations = true
 displayMode = "dark"
@@ -82,26 +82,32 @@ url = "https://open.spotify.com/user/x5xyifk4f697kabe2mm1u95p5?si=pFRMGhfAQzKed1
   url = "/"
 
   [[menu.main]]
-  name = "Posts"
-  weight = 200
-  identifier = "posts"
-  url = "/post/"
-
-  [[menu.main]]
   name = "About"
-  weight = 300
+  weight = 200
   identifier = "about"
   url = "/about/"
 
   [[menu.main]]
-  name = "CV"
+  name = "Research"
+  weight = 300
+  identifier = "research"
+  url = "/research/"
+
+  [[menu.main]]
+  name = "Teaching"
   weight = 400
+  identifier = "Teaching"
+  url = "/teaching/"
+
+  [[menu.main]]
+  name = "CV"
+  weight = 500
   identifier = "cv"
   url = "/files/cv.pdf"
-  
-  
+
   [[menu.main]]
-  name = "Research Projects"
-  weight = 500
-  identifier = "research projects"
-  url = "/research_Project/"
+  name = "Blog"
+  weight = 600
+  identifier = "blog"
+  url = "/post/"
+
