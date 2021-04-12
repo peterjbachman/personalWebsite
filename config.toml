@@ -5,7 +5,7 @@ title = "Website of Peter Bachman"
 theme = "anatole"
 summarylength = 0
 enableEmoji = true
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 # Enable Disqus
 #disqusShortname = ""
