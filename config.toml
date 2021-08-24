@@ -64,7 +64,7 @@ url = "https://github.com/peterjbachman"
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:peter.j.bachman@gmail.com"
+url = "mailto:bachman.p@wustl.edu"
 
 [[params.socialIcons]]
 icon = "fab fa-spotify"
