@@ -1,31 +1,85 @@
 baseURL = "https://peterjbachman.rbind.io"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Peter Bachman"
-theme = "hugo-classic"
+title = "Website of Peter Bachman"
+theme = "anatole"
 summarylength = 0
 enableEmoji = true
 enableRobotsTXT = false
 
-[markup.goldmark.renderer]
-unsafe = true
+# Enable Disqus
+#disqusShortname = ""
 
-[markup.highlight]
-anchorLineNos = false
-codeFences = true
-guessSyntax = false
-hl_Lines = ""
-lineAnchors = ""
-lineNoStart = 1
-lineNos = false
-lineNumbersInTable = true
-noClasses = true
-style = "monokai"
-tabWidth = 4
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[params]
+title = "Peter Bachman"
+author = "Peter Bachman"
+#copyright = "2020-2021"
+description = "Political Science. Statistics. Japanese."
+profilePicture = "images/dithered_circle.png"
+keywords = ""
+favicon = "favicons/"
+# example ["css/custom.css"]
+customCss = ["css/custom.css"]
+# example ["js/custom.js"]
+# customJs = [] 
+mainSections = ["research"]
+images = ["images/site-feature-image.png"]
+doNotLoadAnimations = true
+displayMode = "dark"
+disableThemeSwitcher = true
+# Form Spree Contact Form
+#contactFormAction = "https://formspree.io/f/your-form-hash-here"
+# Google Site Verify
+#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+# indexDateFormat = "Mon, Jan 2, 2006"
+# listDateFormat = "Jan 2"
+# singleDateFormat = "Mon, Jan 2, 2006"
+
+[params.simpleAnalytics]
+# enable = true
+# customurl = "https://analytics.example.com"
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/peterjbachman"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/peterjbachman"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:bachman.p@wustl.edu"
+
+[[params.socialIcons]]
+icon = "fab fa-spotify"
+title = "Spotify"
+url = "https://open.spotify.com/user/x5xyifk4f697kabe2mm1u95p5?si=pFRMGhfAQzKed1worpmy2w"
 
 ## Menu items
 
 [menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
 
   [[menu.main]]
   name = "About"
@@ -57,7 +111,3 @@ tabWidth = 4
   identifier = "blog"
   url = "/post/"
 
-[params]
-custom_css = ["css/style.css"]
-description = "A simple, minimal blog for those who love text."
-footer = "Open-Source | [Github](https://github.com/goodroot/hugo-classic) | [Keybase](https://keybase.io/goodroot)"
