@@ -33,6 +33,7 @@ doNotLoadAnimations = true
 displayMode = "dark"
 disableThemeSwitcher = true
 contentratio = 0.7
+enableMediumZoom = false
 googleFonts = [
   "IBM+Plex+Mono:ital,wght@0,400;0,700;1,400",
   "Recursive:wght@300;400;500;600;700;800;900"
