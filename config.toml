@@ -4,11 +4,7 @@ DefaultContentLanguage = "en"
 title = "Peter Bachman"
 theme = "anatole"
 summarylength = 0
-enableEmoji = true
-enableRobotsTXT = false
 
-# Enable Disqus
-#disqusShortname = ""
 
 # Syntax highlighting
 pygmentsUseClasses = true
@@ -18,37 +14,18 @@ pygmentsCodefencesGuessSyntax = true
 [params]
 title = "Peter Bachman"
 author = "Peter Bachman"
-#copyright = "2020-2021"
-description = ""
+copyright = "2020-{{ YEAR }}"
+description = "Washington University PhD Student"
 profilePicture = "images/dithered_circle.png"
 keywords = ""
 favicon = "favicons/"
-# example ["css/custom.css"]
 customCss = ["css/custom.css"]
-# example ["js/custom.js"]
-# customJs = [] 
-mainSections = ["research"]
-# images = ["images/site-feature-image.png"]
 doNotLoadAnimations = true
 displayMode = "dark"
-disableThemeSwitcher = true
-contentratio = 0.7
+disableThemeSwitcher = false
+contentratio = 0.6
 enableMediumZoom = false
-googleFonts = [
-  "IBM+Plex+Mono:ital,wght@0,400;0,700;1,400",
-  "Recursive:wght@300;400;500;600;700;800;900"
-]
-# Form Spree Contact Form
-#contactFormAction = "https://formspree.io/f/your-form-hash-here"
-# Google Site Verify
-#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-# indexDateFormat = "Mon, Jan 2, 2006"
-# listDateFormat = "Jan 2"
-# singleDateFormat = "Mon, Jan 2, 2006"
-
-[params.simpleAnalytics]
-# enable = true
-# customurl = "https://analytics.example.com"
+mainSections = []
 
 ## Math settings
 [params.math]
@@ -57,20 +34,20 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 
 ## Social links
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
-# [[params.socialIcons]]
-# icon = "fab fa-twitter"
-# title = "Twitter"
-# url = "https://twitter.com/peterjbachman"
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/peterjbachman"
 
-# [[params.socialIcons]]
-# icon = "fab fa-github"
-# title = "GitHub"
-# url = "https://github.com/peterjbachman"
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/peterjbachman"
 
-# [[params.socialIcons]]
-# icon = "fas fa-envelope"
-# title = "e-mail"
-# url = "mailto:bachman.p@wustl.edu"
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:bachman.p@wustl.edu"
 
 # [[params.socialIcons]]
 # icon = "fab fa-spotify"
