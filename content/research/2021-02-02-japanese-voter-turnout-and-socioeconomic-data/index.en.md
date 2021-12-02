@@ -7,8 +7,6 @@ categories: []
 tags: 
   - research
   - presentation
-thumbnail: "images/japan_voter_turnout.png"
-
 ---
 
 This research was done as part of my POLS 5000 - Political Analysis class at

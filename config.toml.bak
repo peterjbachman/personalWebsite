@@ -1,0 +1,96 @@
+baseURL = "https://peterjbachman.rbind.io"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Peter Bachman"
+theme = "anatole"
+summarylength = 0
+
+
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[params]
+title = "Peter Bachman"
+author = "Peter Bachman"
+copyright = "2020-{{ YEAR }}"
+description = "Washington University PhD Student"
+profilePicture = "images/dithered_circle.png"
+keywords = ""
+favicon = "favicons/"
+customCss = ["css/custom.css"]
+doNotLoadAnimations = true
+displayMode = "dark"
+disableThemeSwitcher = false
+contentratio = 0.6
+enableMediumZoom = false
+mainSections = []
+
+## Math settings
+[params.math]
+enable = true  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/peterjbachman"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/peterjbachman"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:bachman.p@wustl.edu"
+
+# [[params.socialIcons]]
+# icon = "fab fa-spotify"
+# title = "Spotify"
+# url = "https://open.spotify.com/user/x5xyifk4f697kabe2mm1u95p5?si=pFRMGhfAQzKed1worpmy2w"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 200
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Research"
+  weight = 300
+  identifier = "research"
+  url = "/research/"
+
+  [[menu.main]]
+  name = "Teaching"
+  weight = 400
+  identifier = "Teaching"
+  url = "/teaching/"
+
+  [[menu.main]]
+  name = "CV"
+  weight = 500
+  identifier = "cv"
+  url = "/files/cv.pdf"
+
+  [[menu.main]]
+  name = "Blog"
+  weight = 600
+  identifier = "blog"
+  url = "/post/"
+

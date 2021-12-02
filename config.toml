@@ -1,96 +1,102 @@
 baseURL = "https://peterjbachman.rbind.io"
-languageCode = "en"
-DefaultContentLanguage = "en"
-title = "Peter Bachman"
-theme = "anatole"
-summarylength = 0
-
-
-# Syntax highlighting
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-
-[params]
+theme = "risotto"
 title = "Peter Bachman"
 author = "Peter Bachman"
-copyright = "2020-{{ YEAR }}"
-description = "Washington University PhD Student"
-profilePicture = "images/dithered_circle.png"
-keywords = ""
-favicon = "favicons/"
-customCss = ["css/custom.css"]
-doNotLoadAnimations = true
-displayMode = "dark"
-disableThemeSwitcher = false
-contentratio = 0.6
-enableMediumZoom = false
-mainSections = []
+copyright = "© 2021 Peter Bachman"
+paginate = 0
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
 
-## Math settings
-[params.math]
-enable = true  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
-use = "katex"  # options: "katex", "mathjax". default is "katex".
+# Automatically add content sections to main menu
+sectionPagesMenu = "main"
 
-## Social links
-# use 'fab' when brand icons, use 'fas' when standard solid icons.
-[[params.socialIcons]]
-icon = "fab fa-twitter"
-title = "Twitter"
-url = "https://twitter.com/peterjbachman"
+[params]
 
-[[params.socialIcons]]
+[params.theme]
+palette = "mountain"
+mode = "dark-mode"
+
+# Sidebar: about/bio
+[params.about]
+title = "Peter Bachman"
+description = "Washington University PhD Student. American Politics. Methods."
+logo = "images/smol_profile.webp"
+
+# Sidebar: social links
+# Available icon sets:
+# * FontAwesome 5 <https://fontawesome.com/> ('fas fa-' or 'fab-fa' for brands)
+# * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
+
+[[params.socialLinks]]
 icon = "fab fa-github"
 title = "GitHub"
 url = "https://github.com/peterjbachman"
 
-[[params.socialIcons]]
+[[params.socialLinks]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/peterjbachman"
+
+[[params.socialLinks]]
 icon = "fas fa-envelope"
-title = "e-mail"
+title = "Email"
 url = "mailto:bachman.p@wustl.edu"
 
-# [[params.socialIcons]]
-# icon = "fab fa-spotify"
-# title = "Spotify"
-# url = "https://open.spotify.com/user/x5xyifk4f697kabe2mm1u95p5?si=pFRMGhfAQzKed1worpmy2w"
-
-## Menu items
+# [[params.socialLinks]]
+# icon = "ai ai-orcid"
+# title = "ORCID"
+# url = "https://orcid.org/0000-0001-2345-6789"
 
 [menu]
 
   [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/"
-
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+    
   [[menu.main]]
-  name = "About"
-  weight = 200
-  identifier = "about"
-  url = "/about/"
+    identifier = "cv"
+    name = "cv"
+    url = "/files/cv.pdf"
+    weight = 20
 
-  [[menu.main]]
-  name = "Research"
-  weight = 300
-  identifier = "research"
-  url = "/research/"
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
 
-  [[menu.main]]
-  name = "Teaching"
-  weight = 400
-  identifier = "Teaching"
-  url = "/teaching/"
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
 
-  [[menu.main]]
-  name = "CV"
-  weight = 500
-  identifier = "cv"
-  url = "/files/cv.pdf"
+[privacy]
 
-  [[menu.main]]
-  name = "Blog"
-  weight = 600
-  identifier = "blog"
-  url = "/post/"
+  [privacy.vimeo]
+    disabled = true
+    simple = true
 
+  [privacy.twitter]
+    disabled = true
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = true
+    simple = true
+
+  [privacy.youtube]
+    disabled = true
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true

@@ -7,8 +7,6 @@ categories: []
 tags: 
   - research
   - presentation
-thumbnail: "images/state_judicial_appointments.png"
-
 ---
 
 This research was done through my Peak Summer Research Fellowship at Utah State
