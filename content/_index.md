@@ -9,6 +9,7 @@ Contact me at [bachman.p@wustl.edu](mailto:bachman.p@wustl.edu)
 
 Find me at the following:
 - [Twitter](https://twitter.com/peterjbachman)
+- <a rel="me" href="https://mastodon.online/@peterjbachman">Mastodon</a>
 - [Github](https://github.com/peterjbachman)
 
 I also have interests in movies and music, so you can also find me at:

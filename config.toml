@@ -17,6 +17,13 @@ enableRobotsTXT = true
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
 [permalinks]
   blog = "/:slug/"
   tags = "/blog/:slug"
@@ -52,19 +59,19 @@ ignoreErrors = ["error-disable-taxonomy"]
   # dateFormat = "2006-01-02"
 
 [menu]
-    
+
   [[menu.main]]
     identifier = "cv"
     name = "CV"
     url = "/files/cv.pdf"
     weight = 10
-    
+
   [[menu.main]]
     identifier = "research"
     name = "Research"
     url = "/research/"
     weight = 20
-    
+
   [[menu.main]]
     identifier = "software"
     name = "Software"
