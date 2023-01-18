@@ -94,7 +94,13 @@ ignoreErrors = ["error-disable-taxonomy"]
     weight = 30
 
   [[menu.main]]
+    identifier = "teaching"
+    name = "Teaching"
+    url = "/teaching"
+    weight = 40
+
+  [[menu.main]]
     identifier = "blog"
     name = "Blog"
     url = "/posts"
-    weight = 40
+    weight = 50

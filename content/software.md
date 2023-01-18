@@ -2,9 +2,9 @@
 title: "Software"
 ---
 
-# R Packages
+## R Packages
 
-## MD2S
+### MD2S
 
 A Multi-Dataset Multidimensional Scaling package. Authored by Ted Enamorado, Gabriel López-Moctezuma, and Marc Ratkovic. Package maintained by Peter Bachman
 
