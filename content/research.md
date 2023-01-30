@@ -4,7 +4,7 @@ title: Research
 
 ## Expanding Emotional Lexicons for Judicial Text using Word Embeddings - Ongoing
 
-This research seeks to create a accurate measure of emotion in judicial texts by
+This research seeks to create an accurate measure of emotion in judicial texts by
 using word embeddings to find the cosine similarity between words in judicial
 text and frequently used emotional lexicons.
 
