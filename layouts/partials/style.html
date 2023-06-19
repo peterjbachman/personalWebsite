@@ -43,11 +43,22 @@
     src: url("/fonts/smalltalk/SmalltalkSans10ExtRegular.woff") format("woff"),
       url("/fonts/smalltalk/SmalltalkSans10ExtRegular.woff2") format("woff2");
   }
+  @font-face {
+    font-family: "UndefinedMedium";
+    font-style: normal;
+    src: url("/fonts/undefinedmedium/undefined-medium.woff") format("woff"),
+      url("/fonts/undefinedmedium/undefined-medium.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "old-compaq";
+    font-style: normal;
+    src: url("/fonts/oldtimes/TIMES.TTF-16-Regular-fa46b8e0f87ca255fb212abd7b50554b2c9335b09da60399ec65001cea25fa8b.woff") format("woff")
+  }
 
   /* Pulled from https://github.com/jimniels/blog/blob/main/src/server/styles/styles.css */
 
   :root {
-    --font-family: Berkeley;
+    --font-family: old-compaq;
     --border-radius: 4px;
     --s-4: calc(4rem / 18);
     --s-8: calc(8rem / 18);
@@ -164,6 +175,7 @@
     color: var(--c-text);
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
+    font-size:min(max(1em,1.3vw),1.3em);
   }
 
   /* Sections
@@ -174,6 +186,7 @@
  */
 
   body {
+    -moz-osx-font-smoothing:grayscale;
     margin: 0;
   }
 
