@@ -11,6 +11,7 @@ Contact me at [bachman.p@wustl.edu](mailto:bachman.p@wustl.edu)
 Find me at the following:
 
 - [Github](https://github.com/peterjbachman)
+- [Bluesky](https://bsky.app/profile/peterjbachman.lol)
 - <a rel="me" href="https://mastodon.online/@peterjbachman">Mastodon</a>
 - [Threads](https://www.threads.net/@peter.j.bachman)
 

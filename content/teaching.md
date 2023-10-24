@@ -5,7 +5,7 @@ title: "Teaching"
 ## Courses
 ### R Bootcamp
 A five day crash-course on R, focusing on how to manipulate data, writing
-functions, and using control statements. Materials were prepared by Cecelia Sui,
+functions, and using control statements. Materials prepared by Cecelia Sui,
 and the materials can be found
 [here](https://github.com/peterjbachman/RCamp2023).
 

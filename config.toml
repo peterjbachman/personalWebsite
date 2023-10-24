@@ -17,6 +17,9 @@ languageCode = "en-US"
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
 
 [markup]
   [markup.goldmark]
@@ -36,11 +39,6 @@ ignoreErrors = ["error-disable-taxonomy"]
     noHl = false
     style = 'monokai'
     tabWidth = 4
-
-
-[permalinks]
-  blog = "/:slug/"
-  tags = "/blog/:slug"
 
 
 [params]
@@ -64,7 +62,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
   # This theme will, by default, inject a made-with-line at the bottom of the page.
   # You can turn it off, but we would really appreciate if you don’t :-).
-  hideMadeWithLine = false
+  hideMadeWithLine = true
 
   # By default, this theme displays dates with a format like "02 Jan, 2006", but
   # you can customize it by setting the `dateFormat` param in your site's config
@@ -98,9 +96,3 @@ ignoreErrors = ["error-disable-taxonomy"]
     name = "Teaching"
     url = "/teaching"
     weight = 40
-
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/posts"
-    weight = 50
