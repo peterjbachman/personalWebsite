@@ -99,6 +99,7 @@
     --flexoki-magenta-400: #CE5D97;
 
     --c-bg: var(--flexoki-paper);
+    --c-ui: var(--flexoki-100);
     --c-text: var(--flexoki-black);
     --c-text-2: var(--flexoki-600);
     --c-theme: var(--flexoki-blue-600);
@@ -108,6 +109,7 @@
   @media (prefers-color-scheme: dark) {
     :root {
       --c-bg: var(--flexoki-black);
+      --c-ui: var(--flexoki-900);
       --c-text: var(--flexoki-200);
       --c-text-2: var(--flexoki-500);
       --c-theme: var(--flexoki-blue-400);
@@ -163,7 +165,7 @@ Grouping content
 
 hr {
 	height: 0; /* 1 */
-	color: inherit; /* 2 */
+	color: var(--c-ui); /* 2 */
 }
 
 /*
