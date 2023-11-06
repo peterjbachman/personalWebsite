@@ -1,7 +1,7 @@
 <a class="internal" href="{{ "" | relURL }}">Home</a>
 {{range .Site.Menus.main}}
-| <a class="internal" href="{{ .URL }}">{{ .Name }}</a>
+<span class="internal">/</span> <a class="internal" href="{{ .URL }}">{{ .Name }}</a>
 {{ end }}
 {{ with .Site.GetPage "/blog" }}
-| <a class="internal" href="{{ "blog" | relURL }}">Blog</a>
+<span class="internal">/</span> <a class="internal" href="{{ "blog" | relURL }}">Blog</a>
 {{ end }}
