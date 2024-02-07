@@ -1,0 +1,19 @@
+---
+title: "Peter Bachman"
+image: profile.jpg
+about:
+  template: trestles
+  image-width: 12em
+---
+
+:::{#hero-heading}
+
+Hi! I'm a student at Washington University in St. Louis. When not messing around with text-as-data measures, I like making playlists on [Spotify](https://open.spotify.com/user/x5xyifk4f697kabe2mm1u95p5?si=972ccc2d5bca40cd), reviewing movies I've watched on [Letterboxd](https://letterboxd.com/PeterJBachman/), and reviewing games I've played on [Backloggd](https://www.backloggd.com/u/PeterJBachman/).
+
+## Education
+
+**M.A. in Political Science** | Washington University in St. Louis | Sept 2021 - May 2024
+
+**B.A. in Political Science** | Utah State University | Sept 2017 - June 2021
+
+:::

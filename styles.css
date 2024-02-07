@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Berkeley";
+  font-style: normal;
+  src: url("/fonts/berkeley/BerkeleyMono-Regular.woff") format("woff"),
+    url("/fonts/berkeley/BerkeleyMono-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Berkeley";
+  font-weight: bold;
+  src: url("/fonts/berkeley/BerkeleyMono-Bold.woff") format("woff"),
+    url("/fonts/berkeley/BerkeleyMono-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Berkeley";
+  font-weight: bold;
+  font-style: italic;
+  src: url("/fonts/berkeley/BerkeleyMono-BoldItalic.woff") format("woff"),
+    url("/fonts/berkeley/BerkeleyMono-BoldItalic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Berkeley";
+  font-style: italic;
+  src: url("/fonts/berkeley/BerkeleyMono-Italic.woff") format("woff"),
+    url("/fonts/berkeley/BerkeleyMono-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Elstob';
+  src:url("/fonts/elstob/Elstob.woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Elstob';
+  src:url("/fonts/elstob/Elstob-Italic.woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("/fonts/inter/InterVariable.woff2");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("/fonts/inter/InterVariable-Italic.woff2");
+  font-style: italic;
+}
+
+.sourceCode {
+  font-variant-ligatures: none;
+}
+
+.html {
+  text-rendering: optimizeLegibility;
+}
+
+.navbar-title {
+  font-family: Elstob, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1em;
+  font-feature-settings: "smcp";
+}
+
+.listing-date {
+  font-family: Elstob, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.listing-author {
+  font-family: Elstob, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.listing-description {
+  font-family: Elstob, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.menu-text {
+  font-family: Elstob, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+p {
+  font-variation-settings: 'opsz' 12, 'wght' 400, 'slnt' 8, 'GRAD' 0, 'SPAC' 0;
+}

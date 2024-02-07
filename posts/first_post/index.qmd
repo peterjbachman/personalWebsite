@@ -1,0 +1,19 @@
+---
+title: 'This is a dummy blog post'
+date: '2024-02-07'
+description: "Test description"
+categories:
+  - test
+  - code
+execute: 
+  message: false
+  warning: false
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+x <- 1 + 1
+
+x
+```
