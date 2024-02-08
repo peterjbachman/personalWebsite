@@ -1,15 +1,8 @@
 {
-<<<<<<< HEAD
   "hash": "43ffa0f4205e021f0423256c12f14e11",
   "result": {
     "engine": "knitr",
     "markdown": "---\ntitle: 'This is a dummy blog post'\ndate: '2024-02-07'\ndescription: \"Test description\"\ncategories:\n  - test\n  - code\nexecute: \n  message: false\n  warning: false\neditor_options: \n  chunk_output_type: console\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nx <- 1 + 1\n\nx\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::",
-=======
-  "hash": "5ff47b55f9ab5417f277098c33c4eca6",
-  "result": {
-    "engine": "knitr",
-    "markdown": "---\ntitle: 'This is a dummy blog posts'\ndate: '2024-02-07'\ndescription: 'This is a test post. In this post, I try out different functionalities'\nexecute: \n  message: false\n  warning: false\neditor_options: \n  chunk_output_type: console\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nx <- 1 + 1\n\nx\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::",
->>>>>>> 50e98ab (draft posts)
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
