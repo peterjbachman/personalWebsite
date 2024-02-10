@@ -44,15 +44,7 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url("/fonts/inter/InterVariable.woff2");
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url("/fonts/inter/InterVariable-Italic.woff2");
-  font-style: italic;
+  src: url("/fonts/inter/Inter-Medium.woff2");
   font-display: swap;
 }
 
@@ -68,6 +60,11 @@
   font-family: Elstob, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1em;
   font-feature-settings: "smcp";
+}
+
+.menu-text {
+  font-family: Elstob, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1.2em;
 }
 
 .listing-date {
