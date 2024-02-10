@@ -1,6 +1,6 @@
 ---
 title: "Hi!"
-image: profile.jpg
+image: profile.webp
 about:
   template: trestles
   image-width: 12em
