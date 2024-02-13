@@ -3,7 +3,7 @@ title: "Hi!"
 image: profile.webp
 image-alt: Profile picture
 about:
-  template: trestles
+  template: solana
   image-width: 12em
 ---
 

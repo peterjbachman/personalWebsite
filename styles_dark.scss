@@ -15,18 +15,20 @@ $gray-600: #6F6E69 !default;
 $gray-700: #575653 !default;
 $gray-800: #403E3C !default;
 $gray-900: #282726 !default;
+$gray-950: #1C1B1A !default;
 $black:    #100F0F !default;
 
-$blue:    #205EA6 !default;
-$indigo:  #205EA6 !default;
-$purple:  #5E409D !default;
-$pink:    #A02F6F !default;
-$red:     #AF3029 !default;
-$orange:  #BC5215 !default;
-$yellow:  #AD8301 !default;
-$green:   #66800B !default;
-$teal:    #24837B !default;
-$cyan:    #24837B !default;
+$blue:    #4385BE !default;
+$blue-bright: #205EA6 !default;
+$indigo:  #4385BE !default;
+$purple:  #8B7EC8 !default;
+$pink:    #CE5D97 !default;
+$red:     #D14D41 !default;
+$orange:  #DA702C !default;
+$yellow:  #D0A215 !default;
+$green:   #879A39 !default;
+$teal:    #3AA99F !default;
+$cyan:    #3AA99F !default;
 
 $primary:       $blue !default;
 $secondary:     $gray-500 !default;
@@ -35,18 +37,22 @@ $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
-$dark:          $gray-800 !default;
+$dark:          $gray-950 !default;
 
 // Body
 
-$body-color:                $black !default;
-$body-emphasis-color-rgb: $white !default;
-$navbar-bg: $white !default;
-$navbar-fg: $black !default;
-$footer-bg: $white !default;
-$footer-fg: $black !default;
+$body-bg:                   $black !default;
+$body-color:                $gray-200 !default;
+$body-secondary-color:      $gray-500 !default;
+$body-emphasis-color-rgb: $gray-200 !default;
+$navbar-bg: $black !default;
+$navbar-fg: $gray-200 !default;
+$footer-bg: $black !default;
+$footer-fg: $gray-200 !default;
 $btn-link-color: $blue !default;
-$navbar-toggler-border-color: $white !default;
+$navbar-toggler-border-color: $black !default;
+$border-color: $blue !default;
+$link-hover-color: $blue-bright !default;
 
 /*-- scss:rules --*/
 

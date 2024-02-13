@@ -1,0 +1,57 @@
+/*-- scss:defaults --*/
+$theme: "litera" !default;
+
+$font-family-sans-serif:      "Inter", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-serif:           "Elstob", Elstob, Georgia, Cambria, "Times New Roman", Times, serif !default;
+$font-family-monospace:       "Berkeley Mono", Berkeley, "IBM Plex Mono", "MonoLisa", "Source Code Pro", Menlo, SFMono-Regular, Consolas, "Roboto Mono", monospace !default;
+
+$white:    #FFFCF0 !default;
+$gray-100: #E6E4D9 !default;
+$gray-200: #DAD8CE !default;
+$gray-300: #CECDC3 !default;
+$gray-400: #B7B5AC !default;
+$gray-500: #878580 !default;
+$gray-600: #6F6E69 !default;
+$gray-700: #575653 !default;
+$gray-800: #403E3C !default;
+$gray-900: #282726 !default;
+$black:    #100F0F !default;
+
+$blue:    #205EA6 !default;
+$blue-bright: #4385BE !default;
+$indigo:  #205EA6 !default;
+$purple:  #5E409D !default;
+$pink:    #A02F6F !default;
+$red:     #AF3029 !default;
+$orange:  #BC5215 !default;
+$yellow:  #AD8301 !default;
+$green:   #66800B !default;
+$teal:    #24837B !default;
+$cyan:    #24837B !default;
+
+$primary:       $blue !default;
+$secondary:     $gray-500 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+// Body
+
+$body-color:                $black !default;
+$body-emphasis-color-rgb: $white !default;
+$navbar-bg: $white !default;
+$navbar-fg: $black !default;
+$footer-bg: $white !default;
+$footer-fg: $black !default;
+$btn-link-color: $blue !default;
+$navbar-toggler-border-color: $white !default;
+$link-hover-color: $blue-bright !default;
+
+/*-- scss:rules --*/
+
+.navbar {
+  border: none;
+}

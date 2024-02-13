@@ -24,8 +24,12 @@ website:
 format:
   html:
     theme:
-      - litera
-      - styles.scss
+      light:
+        - litera
+        - styles_light.scss
+      dark:
+        - litera
+        - styles_dark.scss
     # fontsize: 1.15em
     css: styles.css
     # mainfont: Elstob
