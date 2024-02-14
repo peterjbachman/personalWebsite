@@ -17,6 +17,8 @@ website:
     center: 
       - icon: github
         href: https://github.com/peterjbachman
+      - icon: linkedin
+        href: https://www.linkedin.com/in/peterjbachman
       - icon: mastodon
         href: https://mastodon.online/@peterjbachman
       - icon: rss
@@ -24,12 +26,12 @@ website:
 format:
   html:
     theme:
-      light:
+      # light:
         - litera
         - styles_light.scss
-      dark:
-        - litera
-        - styles_dark.scss
+      # dark:
+      #   - litera
+      #   - styles_dark.scss
     # fontsize: 1.15em
     css: styles.css
     # mainfont: Elstob
