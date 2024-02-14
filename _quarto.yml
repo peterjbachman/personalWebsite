@@ -4,14 +4,20 @@ project:
 website:
   title: "Peter Bachman"
   site-url: https://peterjbachman.lol
+  repo-url: https://github.com/peterjbachman/personalWebsite
   description: "Personal Musings and How-Tos"
+  image: profile.webp
+  image-alt: "Peter Bachman's Personal Website"
+  search: false
+  bread-crumbs: false
   navbar:
+    # logo: logo.svg
     left:
-      - text: "Blog"
-        href: blog.qmd
-    right:
       - text: "About"
         href: index.qmd
+      - text: "Blog"
+        href: blog.qmd
+    collapse: false
   page-footer: 
     left: "Copyright 2024, Peter Bachman" 
     center: 
@@ -23,6 +29,7 @@ website:
         href: https://mastodon.online/@peterjbachman
       - icon: rss
         href: blog.xml
+  open-graph: true
 format:
   html:
     theme:
@@ -32,7 +39,7 @@ format:
       # dark:
       #   - litera
       #   - styles_dark.scss
-    # fontsize: 1.15em
+    fontsize: 1.15em
     css: styles.css
     # mainfont: Elstob
     # monofont: Berkeley
