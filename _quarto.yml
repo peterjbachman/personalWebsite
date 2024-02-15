@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Peter Bachman"
+  title: "peter bachman"
   site-url: https://peterjbachman.lol
   repo-url: https://github.com/peterjbachman/personalWebsite
   description: "Personal Musings and How-Tos"
@@ -13,33 +13,49 @@ website:
   navbar:
     # logo: logo.svg
     left:
-      - text: "About"
+      - text: "about"
         href: index.qmd
-      - text: "Blog"
-        href: blog.qmd
-    collapse: false
+      # - text: "Blog"
+      #   href: blog.qmd
+      - text: "resume"
+        href: resume/index.qmd
+    collapse: true
   page-footer: 
     left: "Copyright 2024, Peter Bachman" 
     center: 
+      - icon: envelope-fill
+        href: mailto:peter.j.bachman@gmail.com
       - icon: github
         href: https://github.com/peterjbachman
       - icon: linkedin
         href: https://www.linkedin.com/in/peterjbachman
       - icon: mastodon
         href: https://mastodon.online/@peterjbachman
+        rel: me
       - icon: rss
         href: blog.xml
   open-graph: true
 format:
   html:
+    html-math-method: plain
+    smooth-scroll: false
+    email-obfuscation: references
+    standalone: false
+    lang: en
+    footnotes-hover: false
+    citations-hover: false
+    lightbox: false
+    code-copy: false
+    code-link: false
+    code-tools: false
+    code-fold: false
+    highlight-style: gruvbox
     theme:
       # light:
-        - litera
         - styles_light.scss
       # dark:
-      #   - litera
-      #   - styles_dark.scss
-    fontsize: 1.15em
+      #   - darkly
+    fontsize: 1.22em
     css: styles.css
     # mainfont: Elstob
     # monofont: Berkeley

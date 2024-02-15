@@ -41,17 +41,19 @@ $dark:          $gray-800 !default;
 // Body
 
 $body-color:                $black !default;
-$body-emphasis-color-rgb: $white !default;
 $navbar-bg: $white !default;
 $navbar-fg: $black !default;
 $footer-bg: $white !default;
 $footer-fg: $black !default;
-$btn-link-color: $blue !default;
-$navbar-toggler-border-color: $white !default;
+// $btn-link-color: $blue !default;
+// $navbar-toggler-border-color: $white !default;
 $link-hover-color: $blue-bright !default;
+
+$font-family-base: $font-family-serif !default;
+$headings-font-family: $font-family-sans-serif !default;
 
 /*-- scss:rules --*/
 
-.navbar {
-  border: none;
-}
+// .navbar {
+//   border: none;
+// }
