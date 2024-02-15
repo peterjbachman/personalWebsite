@@ -3,51 +3,119 @@ title: 'Resume'
 subtitle: 'Social Scientist | Data Analyst'
 ---
 
-Social scientist with 3 years of experience in 
+A graduate student in Political Science at Washington University in St. Louis, using text-as-data methods to better understand the Supreme Court. Expertise in statistics, with an emphasis on machine learning, imbalanced data, and text-analysis.
 
 ## Work Experience
 
 :::: {.columns}
-::: {.column width="90%" style="align: left;"}
+::: {.column style="align: left;width: 70%"}
 **Washington University in St. Louis**\
-Graduate Student, Political Science
+*Graduate Student, Political Science*
 :::
-::: {.column width="10%" style="text-align: right;"}
+::: {.column style="text-align: right;width: 30%"}
 **August 2021 - Present**
 :::
 ::::
 
-
+- Applied NLP techniques to analyze the behavior of Supreme Court justices.
+- Utilized R and Python for data manipulation and statistical modeling.
+- Effectively communicated complex political concepts through charts, graphs, and infographics.
+- Designed research projects with clear hypotheses and data collection strategies.
 
 :::: {.columns}
-::: {.column width="90%" style="align: left;"}
+::: {.column style="align: left;width: 70%"}
 **American Policial Science Association**\
-Editorial Assistant
+*Editorial Assistant*
 :::
-::: {.column width="10%" style="text-align: right;"}
+::: {.column style="text-align: right;width: 30%"}
 **January 2023 - Present**
 :::
 ::::
 
- 
+- Collaborated with authors to verify and validate replication code.
+- Ensured that R and Python scripts executed correctly, following best practices.
+- Reviewed manuscripts for technical accuracy and consistency.
+- Coordinated with the editorial team to meet publication deadlines.
+
+## Research Experience
 
 :::: {.columns}
-::: {.column width="90%" style="align: left;"}
+::: {.column style="align: left; width: 70%"}
 **Washington University in St. Louis**\
-Python Course Teaching Assistant
+*Supreme Court Justices’ Accusations of Judicial Activism in Separate Opinions*
 :::
-::: {.column width="10%" style="text-align: right;"}
+::: {.column style="text-align: right; width:30%"}
+**2023 - 2024**
+:::
+::::
+
+- Coordinated and managed 7 undergraduate students in hand-labeling Supreme Court opinions.
+- Fine-tuned Large Language Models to measure the concept of judicial activism, remedying low classification performance through undersampling and threshold adjustment.
+- Employed a two-stage selection model to account for selection bias when representing how justices use judicial activism in separate opinions.
+
+:::: {.columns}
+::: {.column style="align: left; width: 70%"}
+**Washington University in St. Louis**\
+*Research Assistant to Taylor Carlson*\
+*Through the Grapevine: Socially Transmitted Information and Distorted Democracy*
+:::
+::: {.column style="text-align: right; width:30%"}
+**2023**
+:::
+::::
+
+- Ensured the validity of results in the book by creating replication code files.
+- Created figures using `ggplot2` to convey the importance of socially transmitted information.
+
+:::: {.columns}
+::: {.column style="align: left; width: 70%"}
+**Washington University in St. Louis**\
+*Research Assistant to Taylor Carlson*\
+*An Era of Minimal Exposure but Not-So-Minimal Effects? The Case of Fox News*
+:::
+::: {.column style="text-align: right; width:30%"}
+**2023**
+:::
+::::
+
+- Managed a SQL database, making queries on a database of over
+- Complied relevant Comscore and YouGov survey data, along with web tracking data, using R and tidyverse.
+- Created reports using `ggplot2` to represent how survey participants engage in Fox News.
+
+:::: {.columns}
+::: {.column style="align: left; width: 70%"}
+**Washington University in St. Louis**\
+*Improving Measures of Emotion in Judicial Text using Word Embeddings*
+:::
+::: {.column style="text-align: right; width: 30%"}
+**2023 - 2024**
+:::
+::::
+
+- Collected text of Supreme Court opinions by accessing the CourtListener API using Python.
+- Utilized GLoVe word embeddings to measure how the cosine similarity of words to sentiment analysis dictionaries
+- Plotted similarities to positive and negative sentiment words using `matplotlib`
+
+
+## Teaching Experience
+
+:::: {.columns}
+::: {.column style="align: left; width: 70%"}
+**Washington University in St. Louis**\
+*Python Course Teaching Assistant*
+:::
+::: {.column style="text-align: right; width: 30%"}
 **August 2023**
 :::
 ::::
 
 
 :::: {.columns}
-::: {.column width="90%" style="align: left;"}
+::: {.column style="align: left; width: 70%"}
 **Washington University in St. Louis**\
-R Course Instructor
+*R Course Instructor*
 :::
-::: {.column width="10%" style="text-align: right;"}
+::: {.column style="text-align: right;width: 30%"}
 **January 2023**
 :::
 ::::
@@ -55,26 +123,26 @@ R Course Instructor
 ## Education
 
 :::: {.columns}
-::: {.column width="90%" style="align: left;"}
-**Washington University in St. Louis**
+::: {.column style="align: left; width: 70%"}
+**Washington University in St. Louis**\
 M.A. Political Science
 :::
-::: {.column width="10%" style="text-align: right;"}
+::: {.column style="text-align: right; width: 30%"}
 **May 2024**
 :::
 ::::
 
 :::: {.columns}
-::: {.column width="90%" style="align: left;"}
+::: {.column style="align: left; width: 70%"}
 **Utah State University**\
 B.A. Political Science
 :::
-::: {.column width="10%" style="text-align: right;"}
-**2021**  
+::: {.column style="text-align: right; width: 30%"}
+**2021**
 :::
 ::::
 
 ## Skills
 
-- Fluent in speaking Japanese 
+- Proficient in speaking Japanese
 - Proficient in R, Python, unix, git; familar with C++, Stan, SQL, and Java
