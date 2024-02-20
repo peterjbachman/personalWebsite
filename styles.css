@@ -27,7 +27,7 @@
     url("./fonts/berkeley/BerkeleyMono-Italic.woff2") format("woff2");
   font-display: swap;
 }
-@font-face {
+/* @font-face {
   font-family: 'Elstob';
   src:url("./fonts/elstob/Elstob.woff2");
   font-weight: 400;
@@ -40,11 +40,34 @@
   font-weight: 400;
   font-style: italic;
   font-display: swap;
+} */
+
+/* @font-face {
+  font-family: 'Inter';
+  src: url("./fonts/inter/Inter-Medium.woff2");
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: "Garamond";
+  font-style: normal;
+  src: url("./fonts/garamond/EBGaramond12-Regular.woff") format("woff"),
+    url("./fonts/garamond/EBGaramond12-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Garamond";
+  font-style: italic;
+  src: url("./fonts/garamond/EBGaramond12-Italic.woff") format("woff"),
+    url("./fonts/garamond/EBGaramond12-Italic.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url("./fonts/inter/Inter-Medium.woff2");
+  font-family: "Garamond-SC";
+  font-style: normal;
+  src: url("./fonts/garamond/EBGaramond12-AllSC.woff") format("woff"),
+    url("./fonts/garamond/EBGaramond12-AllSC.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -57,30 +80,29 @@
 }
 
 .navbar-title {
-  font-family: Elstob, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Garamond-SC, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1em;
-  font-feature-settings: "smcp";
 }
 
 .menu-text {
-  font-family: Elstob, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Garamond-SC, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1.2em;
 }
 
 .listing-date {
-  font-family: Elstob, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Garamond-SC, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .listing-author {
-  font-family: Elstob, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Garamond-SC, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .listing-description {
-  font-family: Elstob, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Garamond-SC, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .menu-text {
-  font-family: Elstob, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Garamond-SC, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 p {
