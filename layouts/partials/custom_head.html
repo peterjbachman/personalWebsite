@@ -29,30 +29,33 @@
   font-display: swap;
 }
 @font-face {
-  font-family: 'Elstob';
-  src:url("./fonts/elstob/Elstob.woff2");
-  font-weight: 400;
+  font-family: "Garamond";
   font-style: normal;
+  src: url("./fonts/garamond/EBGaramond12-Regular.woff") format("woff"),
+    url("./fonts/garamond/EBGaramond12-Regular.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
-  font-family: 'Elstob';
-  src:url("./fonts/elstob/Elstob-Italic.woff2");
-  font-weight: 400;
+  font-family: "Garamond";
   font-style: italic;
+  src: url("./fonts/garamond/EBGaramond12-Italic.woff") format("woff"),
+    url("./fonts/garamond/EBGaramond12-Italic.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Garamond-SC";
+  font-style: normal;
+  src: url("./fonts/garamond/EBGaramond12-AllSC.woff") format("woff"),
+    url("./fonts/garamond/EBGaramond12-AllSC.woff2") format("woff2");
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'Inter';
-  src: url("./fonts/inter/Inter-Medium.woff2");
-  font-display: swap;
-}
   :root {
       --width: 720px;
-      --font-main: 'Inter', sans-serif;
-      --font-secondary: 'Elstob', serif;
-      --font-scale: 1.2em;
+      --font-main: 'Garamond-SC', sans-serif;
+      --font-secondary: 'Garamond', serif;
+      --font-link: 'Berkeley', monospace;
+      --font-scale: 1.25em;
       --background-color: #fff;
       --heading-color: #232333;
       --text-color: #232333;
@@ -96,7 +99,8 @@
 
   a {
       color: var(--link-color);
-      font-family: var(--font-main);
+      font-family: var(--font-link);
+      font-size:  0.8em;
       cursor: pointer;
       text-decoration: none;
       border-bottom: 1px solid #ff0000;
@@ -147,6 +151,7 @@
 
   code {
       font-family: "Berkeley", monospace;
+      font-size:  0.8em;
       padding: 2px;
       background-color: var(--code-background-color);
       color: var(--code-color);
