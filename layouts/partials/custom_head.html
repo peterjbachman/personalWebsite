@@ -1,52 +1,53 @@
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>♨️</text></svg>">
 <style>
 @font-face {
   font-family: "Berkeley";
   font-style: normal;
-  src: url("./fonts/berkeley/BerkeleyMono-Regular.woff") format("woff"),
-    url("./fonts/berkeley/BerkeleyMono-Regular.woff2") format("woff2");
+  src: url("/fonts/berkeley/BerkeleyMono-Regular.woff") format("woff"),
+    url("/fonts/berkeley/BerkeleyMono-Regular.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "Berkeley";
   font-weight: bold;
-  src: url("./fonts/berkeley/BerkeleyMono-Bold.woff") format("woff"),
-    url("./fonts/berkeley/BerkeleyMono-Bold.woff2") format("woff2");
+  src: url("/fonts/berkeley/BerkeleyMono-Bold.woff") format("woff"),
+    url("/fonts/berkeley/BerkeleyMono-Bold.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "Berkeley";
   font-weight: bold;
   font-style: italic;
-  src: url("./fonts/berkeley/BerkeleyMono-BoldItalic.woff") format("woff"),
-    url("./fonts/berkeley/BerkeleyMono-BoldItalic.woff2") format("woff2");
+  src: url("/fonts/berkeley/BerkeleyMono-BoldItalic.woff") format("woff"),
+    url("/fonts/berkeley/BerkeleyMono-BoldItalic.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "Berkeley";
   font-style: italic;
-  src: url("./fonts/berkeley/BerkeleyMono-Italic.woff") format("woff"),
-    url("./fonts/berkeley/BerkeleyMono-Italic.woff2") format("woff2");
+  src: url("/fonts/berkeley/BerkeleyMono-Italic.woff") format("woff"),
+    url("/fonts/berkeley/BerkeleyMono-Italic.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "Garamond";
   font-style: normal;
-  src: url("./fonts/garamond/EBGaramond12-Regular.woff") format("woff"),
-    url("./fonts/garamond/EBGaramond12-Regular.woff2") format("woff2");
+  src: url("/fonts/garamond/EBGaramond12-Regular.woff") format("woff"),
+    url("/fonts/garamond/EBGaramond12-Regular.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "Garamond";
   font-style: italic;
-  src: url("./fonts/garamond/EBGaramond12-Italic.woff") format("woff"),
-    url("./fonts/garamond/EBGaramond12-Italic.woff2") format("woff2");
+  src: url("/fonts/garamond/EBGaramond12-Italic.woff") format("woff"),
+    url("/fonts/garamond/EBGaramond12-Italic.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "Garamond-SC";
   font-style: normal;
-  src: url("./fonts/garamond/EBGaramond12-AllSC.woff") format("woff"),
-    url("./fonts/garamond/EBGaramond12-AllSC.woff2") format("woff2");
+  src: url("/fonts/garamond/EBGaramond12-AllSC.woff") format("woff"),
+    url("/fonts/garamond/EBGaramond12-AllSC.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -55,22 +56,25 @@
       --font-main: 'Garamond-SC', sans-serif;
       --font-secondary: 'Garamond', serif;
       --font-link: 'Berkeley', monospace;
-      --font-scale: 1.25em;
-      --background-color: #fff;
-      --heading-color: #232333;
-      --text-color: #232333;
-      --link-color: #232333;
-      --visited-color: #232333;
-      --main-color: #ff0000;
-      --code-background-color: #f2f2f2;
-      --code-color: #222;
-      --blockquote-color: #222;
-      --big-border-color: #232333;
-      --background-color-dark: #333;
-      --text-color-dark: #ddd;
-      --visited-color-dark: #ddd;
-      --link-color-dark: #ddd;
-      --big-border-color-dark: #888;
+      --font-scale: 1.3em;
+      --background-color: #FFFCF0;
+      --heading-color: #100F0F;
+      --text-color: #100F0F;
+      --link-color: #100F0F;
+      --visited-color: #100F0F;
+      --main-color: #205EA6;
+      --main-color-dark: #4385BE;
+      --code-background-color: #F2F0E5;
+      --code-color: #100F0F;
+      --code-background-color-dark: #1C1B1A;
+      --code-color-dark: #CECDC3;
+      --blockquote-color: #6F6E69;
+      --big-border-color: #CECDC3;
+      --background-color-dark: #100F0F;
+      --text-color-dark: #CECDC3;
+      --visited-color-dark: #CECDC3;
+      --link-color-dark: #CECDC3;
+      --big-border-color-dark: #403E3C;
   }
 
   body {
@@ -102,20 +106,18 @@
       font-family: var(--font-link);
       font-size:  0.8em;
       cursor: pointer;
-      text-decoration: none;
-      border-bottom: 1px solid #ff0000;
+      text-decoration: underline var(--main-color);
   }
 
   a:hover {
-      background-color: var(--main-color);
-      color: white;
-      text-decoration: none;
+      color: var(--main-color);
+      text-decoration: underline var(--main-color);
   }
 
   header {
       margin-bottom: 40px;
       padding-bottom: 20px;
-      border-bottom: 3px dotted var(--big-border-color);
+      border-bottom: 1px solid var(--big-border-color);
   }
 
   nav a {
@@ -167,7 +169,7 @@
 
   footer {
       margin-top: 40px;
-      border-top: 3px dotted var(--big-border-color);
+      border-top: 1px solid var(--big-border-color);
       padding: 25px 0;
       text-align: center;
   }
@@ -244,12 +246,17 @@
     h6,
     strong,
     b {
-      color: #eee;
+      color: var(--text-color-dark);
     }
 
     a {
       color: var(--link-color-dark);
+      text-decoration: underline var(--main-color-dark);
     }
+    a:hover {
+      color: var(--main-color-dark);
+      text-decoration: underline var(--main-color-dark);
+  }
 
     header {
       border-color: var(--big-border-color-dark);
@@ -260,11 +267,12 @@
     }
 
     code {
-      background-color: #777;
+      background-color: var(--code-background-color-dark);
+      color: var(--code-color-dark);
     }
 
     pre code {
-      color: #ddd;
+      color: var(--code-color-dark);
     }
 
     blockquote {
