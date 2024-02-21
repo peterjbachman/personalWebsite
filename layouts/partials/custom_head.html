@@ -1,94 +1,101 @@
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>♨️</text></svg>">
+<link rel="icon"
+  href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>♨️</text></svg>">
 <style>
-@font-face {
-  font-family: "Berkeley";
-  font-style: normal;
-  src: url("/fonts/berkeley/BerkeleyMono-Regular.woff") format("woff"),
-    url("/fonts/berkeley/BerkeleyMono-Regular.woff2") format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Berkeley";
-  font-weight: bold;
-  src: url("/fonts/berkeley/BerkeleyMono-Bold.woff") format("woff"),
-    url("/fonts/berkeley/BerkeleyMono-Bold.woff2") format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Berkeley";
-  font-weight: bold;
-  font-style: italic;
-  src: url("/fonts/berkeley/BerkeleyMono-BoldItalic.woff") format("woff"),
-    url("/fonts/berkeley/BerkeleyMono-BoldItalic.woff2") format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Berkeley";
-  font-style: italic;
-  src: url("/fonts/berkeley/BerkeleyMono-Italic.woff") format("woff"),
-    url("/fonts/berkeley/BerkeleyMono-Italic.woff2") format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Garamond";
-  font-style: normal;
-  src: url("/fonts/garamond/EBGaramond12-Regular.woff") format("woff"),
-    url("/fonts/garamond/EBGaramond12-Regular.woff2") format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Garamond";
-  font-style: italic;
-  src: url("/fonts/garamond/EBGaramond12-Italic.woff") format("woff"),
-    url("/fonts/garamond/EBGaramond12-Italic.woff2") format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Garamond-SC";
-  font-style: normal;
-  src: url("/fonts/garamond/EBGaramond12-AllSC.woff") format("woff"),
-    url("/fonts/garamond/EBGaramond12-AllSC.woff2") format("woff2");
-  font-display: swap;
-}
+  @font-face {
+    font-family: "Berkeley";
+    font-style: normal;
+    src: url("/fonts/berkeley/BerkeleyMono-Regular.woff") format("woff"),
+      url("/fonts/berkeley/BerkeleyMono-Regular.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Berkeley";
+    font-weight: bold;
+    src: url("/fonts/berkeley/BerkeleyMono-Bold.woff") format("woff"),
+      url("/fonts/berkeley/BerkeleyMono-Bold.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Berkeley";
+    font-weight: bold;
+    font-style: italic;
+    src: url("/fonts/berkeley/BerkeleyMono-BoldItalic.woff") format("woff"),
+      url("/fonts/berkeley/BerkeleyMono-BoldItalic.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Berkeley";
+    font-style: italic;
+    src: url("/fonts/berkeley/BerkeleyMono-Italic.woff") format("woff"),
+      url("/fonts/berkeley/BerkeleyMono-Italic.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Garamond";
+    font-style: normal;
+    src: url("/fonts/garamond/EBGaramond12-Regular.woff") format("woff"),
+      url("/fonts/garamond/EBGaramond12-Regular.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Garamond";
+    font-style: italic;
+    src: url("/fonts/garamond/EBGaramond12-Italic.woff") format("woff"),
+      url("/fonts/garamond/EBGaramond12-Italic.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Garamond-SC";
+    font-style: normal;
+    src: url("/fonts/garamond/EBGaramond12-AllSC.woff") format("woff"),
+      url("/fonts/garamond/EBGaramond12-AllSC.woff2") format("woff2");
+    font-display: swap;
+  }
 
   :root {
-      --width: 720px;
-      --font-main: 'Garamond-SC', sans-serif;
-      --font-secondary: 'Garamond', serif;
-      --font-link: 'Berkeley', monospace;
-      --font-scale: 1.3em;
-      --background-color: #FFFCF0;
-      --heading-color: #100F0F;
-      --text-color: #100F0F;
-      --link-color: #100F0F;
-      --visited-color: #100F0F;
-      --main-color: #205EA6;
-      --main-color-dark: #4385BE;
-      --code-background-color: #F2F0E5;
-      --code-color: #100F0F;
-      --code-background-color-dark: #1C1B1A;
-      --code-color-dark: #CECDC3;
-      --blockquote-color: #6F6E69;
-      --big-border-color: #CECDC3;
-      --background-color-dark: #100F0F;
-      --text-color-dark: #CECDC3;
-      --visited-color-dark: #CECDC3;
-      --link-color-dark: #CECDC3;
-      --big-border-color-dark: #403E3C;
+    --width: 720px;
+    --font-main: 'Garamond-SC', sans-serif;
+    --font-secondary: 'Garamond', serif;
+    --font-link: 'Berkeley', monospace;
+    --font-scale: 1.3em;
+    --background-color: #FFFCF0;
+    --heading-color: #100F0F;
+    --text-color: #100F0F;
+    --link-color: #100F0F;
+    --visited-color: #100F0F;
+    --main-color: #205EA6;
+    --main-color-dark: #4385BE;
+    --code-background-color: #F2F0E5;
+    --code-color: #100F0F;
+    --code-background-color-dark: #1C1B1A;
+    --code-color-dark: #CECDC3;
+    --blockquote-color: #6F6E69;
+    --big-border-color: #CECDC3;
+    --background-color-dark: #100F0F;
+    --text-color-dark: #CECDC3;
+    --visited-color-dark: #CECDC3;
+    --link-color-dark: #CECDC3;
+    --big-border-color-dark: #403E3C;
   }
 
   body {
-      font-family: var(--font-secondary);
-      font-size: var(--font-scale);
-      margin: auto;
-      padding: 20px;
-      max-width: var(--width);
-      text-align: left;
-      background-color: var(--background-color);
-      word-wrap: break-word;
-      overflow-wrap: break-word;
-      line-height: 1.5;
-      color: var(--text-color);
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
   }
 
   h1,
@@ -97,54 +104,79 @@
   h4,
   h5,
   h6 {
-      font-family: var(--font-main);
-      color: var(--heading-color);
+    font-family: var(--font-main);
+    color: var(--heading-color);
   }
 
   a {
-      color: var(--link-color);
-      font-family: var(--font-link);
-      font-size:  0.8em;
-      cursor: pointer;
-      text-decoration: underline var(--main-color);
+    color: var(--link-color);
+    font-family: var(--font-link);
+    font-size: 0.8em;
+    cursor: pointer;
+    text-decoration: underline var(--main-color);
   }
 
   a:hover {
-      color: var(--main-color);
-      text-decoration: underline var(--main-color);
+    color: var(--main-color);
+  }
+
+  a .icon {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: -.140em;
+    fill: var(--text-color);
+  }
+
+  a:hover .icon {
+    fill: var(--main-color);
+  }
+
+  .footer-icon {
+    text-decoration: none;
+  }
+
+  a:hover .footer-icon {
+    text-decoration: none;
+  }
+
+  .icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -.140em;
+    fill: var(--text-color);
   }
 
   header {
-      margin-bottom: 40px;
-      padding-bottom: 20px;
-      border-bottom: 1px solid var(--big-border-color);
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--big-border-color);
   }
 
   nav a {
-      margin-right: 8px;
+    margin-right: 8px;
   }
 
   strong,
   b {
-      color: var(--heading-color);
+    color: var(--heading-color);
   }
 
   button {
-      margin: 0;
-      cursor: pointer;
+    margin: 0;
+    cursor: pointer;
   }
 
   main {
-      line-height: 1.6;
+    line-height: 1.6;
   }
 
   table {
-      width: 100%;
+    width: 100%;
   }
 
   hr {
-      border: 0;
-      border-top: 1px dashed;
+    border: 0;
+    border-top: 1px dashed;
   }
 
   img {
@@ -152,89 +184,91 @@
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    border-radius: 10px;
   }
 
   code {
-      font-family: "Berkeley", monospace;
-      font-size:  0.8em;
-      padding: 2px;
-      background-color: var(--code-background-color);
-      color: var(--code-color);
-      border-radius: 3px;
+    font-family: "Berkeley", monospace;
+    font-size: 0.8em;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
   }
 
   blockquote {
-      border-left: 1px solid #999;
-      color: var(--code-color);
-      padding-left: 20px;
-      font-style: italic;
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
   }
 
   footer {
-      margin-top: 40px;
-      border-top: 1px solid var(--big-border-color);
-      padding: 25px 0;
-      text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid var(--big-border-color);
+    padding: 25px 0;
+    text-align: center;
   }
 
   .title:hover {
-      text-decoration: none;
+    text-decoration: none;
   }
 
   .title h1 {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
 
   .inline {
-      width: auto !important;
+    width: auto !important;
   }
 
   .highlight,
   .code {
-      padding: 1px 15px;
-      background-color: var(--code-background-color);
-      color: var(--code-color);
-      border-radius: 3px;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      overflow-x: auto;
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
   }
 
   /* blog post list */
   ul.blog-posts {
-      list-style-type: none;
-      padding: unset;
+    list-style-type: none;
+    padding: unset;
   }
 
   ul.blog-posts li {
-      display: flex;
-      margin-bottom: 10px;
+    display: flex;
+    margin-bottom: 10px;
   }
 
   i time {
-      font-style: normal;
-      opacity: 0.7;
+    font-style: normal;
+    opacity: 0.7;
   }
 
   ul.blog-posts li span {
-      flex: 0 0 130px;
+    flex: 0 0 130px;
   }
 
 
   ul.blog-posts li a:visited {
-      color: var(--visited-color);
+    color: var(--visited-color);
   }
 
   table {
-      border-spacing: 0;
+    border-spacing: 0;
   }
 
   th,
   td {
-      padding: 6px 13px;
-      border: 1px solid #dfe2e5;
-      font-size: 1em;
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+    font-size: 1em;
   }
+
   @media (prefers-color-scheme: dark) {
     body {
       background-color: var(--background-color-dark);
@@ -256,10 +290,11 @@
       color: var(--link-color-dark);
       text-decoration: underline var(--main-color-dark);
     }
+
     a:hover {
       color: var(--main-color-dark);
       text-decoration: underline var(--main-color-dark);
-  }
+    }
 
     header {
       border-color: var(--big-border-color-dark);

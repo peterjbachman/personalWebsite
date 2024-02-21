@@ -55,4 +55,3 @@ ignoreErrors = ["error-disable-taxonomy"]
     [markup.goldmark]
         [markup.goldmark.renderer]
             hardWraps = true
-
