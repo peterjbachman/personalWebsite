@@ -1,6 +1,8 @@
 # Base URL used when generating links to your pages
 # Set to the URL for your site
 baseURL = "https://peterjbachman.lol"
+newContentEditor = "open -b pro.writer.mac"
+
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
@@ -55,3 +57,7 @@ ignoreErrors = ["error-disable-taxonomy"]
     [markup.goldmark]
         [markup.goldmark.renderer]
             hardWraps = true
+
+[security]
+    [security.exec]
+        allow = ['^subl$', '^open$']

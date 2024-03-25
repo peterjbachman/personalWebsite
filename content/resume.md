@@ -9,7 +9,7 @@ menu:
 
 A graduate student in Political Science at Washington University in St. Louis, using text-as-data methods to better understand the Supreme Court. Expertise in statistics, with an emphasis on machine learning, imbalanced data, and text-analysis.
 
-A PDF version can be found [here](/resume.pdf)
+A PDF version can be found [here](/files/resume.pdf)
 
 ---
 
@@ -56,11 +56,15 @@ A PDF version can be found [here](/resume.pdf)
 **Washington University in St. Louis**
 *Supreme Court Justices’ Accusations of Judicial Activism in Separate Opinions* | 2023 - 2024
 
+- [Paper](/files/third_year_paper.pdf)
+
 - Classified Supreme Court Opinions using machine learning techniques (**LLM** fine-tuning, **XGBoost**) to measure the concept of judicial activism, remedying low classification performance through undersampling and threshold adjustment.
 - Employed a two-stage selection model to account for selection bias when representing how justices use judicial activism in separate opinions.
 - Coordinated and managed 7 undergraduate students in hand-labeling Supreme Court opinions.
 
 *Do Daughters Affect How Judges Interpret Law?* | 2023
+
+- [Replication Code](https://github.com/peterjbachman/causal_project) and [Poster](/files/causal_project.pdf)
 
 - Accessed federal circuit court opinion text using **Python** to access the Caselaw Access Project's API.
 - Employed a Structural Topic Model to find when judges discussed first-hand accounts in case opinions.
@@ -79,7 +83,10 @@ A PDF version can be found [here](/resume.pdf)
 - Complied relevant Comscore and YouGov survey data, along with web tracking data, and SVOD watching history, using **R** and **tidyverse**.
 - Created reports using **ggplot2** to represent how survey participants engage in Fox News across multiple data sources.
 
-*Improving Measures of Emotion in Judicial Text using Word Embeddings* | 2023
+*Improving Measures of Emotion in Judicial Text using 
+Word Embeddings* | 2023
+
+- [Replication Code](https://github.com/peterjbachman/judicialEmbedding) and [Poster](/files/judicialembeddings.pdf)
 
 - Collected text of Supreme Court opinions by accessing the CourtListener API using **Python**.
 - Utilized GLoVe word embeddings to measure how the cosine similarity of words in Supreme Court opinions relates to frequently used sentiment analysis dictionaries.
