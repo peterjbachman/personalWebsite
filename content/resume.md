@@ -70,21 +70,22 @@ A PDF version can be found [here](/files/resume.pdf)
 - Employed a Structural Topic Model to find when judges discussed first-hand accounts in case opinions.
 - Utilized causal inference techniques through generalized full matching across judge and case-level characteristics.
 
-*Research Assistant to Taylor Carlson*\
-*Through the Grapevine: Socially Transmitted Information and Distorted Democracy* | 2023
+
+*Through the Grapevine: Socially Transmitted Information and Distorted Democracy* | 2023\
+**Research Assistant to Taylor Carlson**
 
 - Ensured the validity of results in the book by creating replication code files in **R**.
 - Created figures using **ggplot2** to convey the importance of socially transmitted information using survey data.
 
-*Research Assistant to Taylor Carlson*\
-*An Era of Minimal Exposure but Not-So-Minimal Effects? The Case of Fox News* | 2023
+
+*An Era of Minimal Exposure but Not-So-Minimal Effects? The Case of Fox News* | 2023\
+**Research Assistant to Taylor Carlson**
 
 - Managed a **SQL** database, making queries on a database with over 32 million Twitter posts.
 - Complied relevant Comscore and YouGov survey data, along with web tracking data, and SVOD watching history, using **R** and **tidyverse**.
 - Created reports using **ggplot2** to represent how survey participants engage in Fox News across multiple data sources.
 
-*Improving Measures of Emotion in Judicial Text using 
-Word Embeddings* | 2023
+*Improving Measures of Emotion in Judicial Text using  Word Embeddings* | 2023
 
 - [Replication Code](https://github.com/peterjbachman/judicialEmbedding) and [Poster](/files/judicialembeddings.pdf)
 
