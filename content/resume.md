@@ -87,7 +87,7 @@ A PDF version can be found [here](/files/resume.pdf)
 
 *Improving Measures of Emotion in Judicial Text using  Word Embeddings* | 2023
 
-- [Replication Code](https://github.com/peterjbachman/judicialEmbedding) and [Poster](/files/judicialembeddings.pdf)
+- [Replication Code](https://github.com/peterjbachman/judicialEmbedding) and [Poster](/files/judicial_embeddings.pdf)
 
 - Collected text of Supreme Court opinions by accessing the CourtListener API using **Python**.
 - Utilized GLoVe word embeddings to measure how the cosine similarity of words in Supreme Court opinions relates to frequently used sentiment analysis dictionaries.
