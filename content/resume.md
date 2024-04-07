@@ -19,35 +19,36 @@ A PDF version can be found [here](/files/resume.pdf)
 * [Research Experience](#research-experience)
 * [Education](#education)
 * [Teaching Experience](#teaching-experience)
+* [R Packages](#r-packages)
 * [Skills](#skills)
 * [References](#references)
 
 ---
 
 ## Work Experience
-**Washington University in St. Louis** | August 2021 - Present\
-*Political Science Graduate Student Researcher*
+**Washington University in St. Louis** | May 2022 - Present\
+*Data Science Researcher*
 
-- Modeled NLP algorithms to analyze the behavior of Supreme Court justices using **R** and **Python**.
-- Created data visualizations in **ggplot2** and **matplotlib** to effectively communicate complex political concepts.
-- Designed research projects with clear hypotheses and data collection strategies, utilizing both experimental and observational data, and a variety of statistical modeling techniques.
+- Managed data processing workflows using **Git**.
+- Maintained databases of Twitter posts and comments using **SQL**.
+- Developed visualizations in **Python** and **R** to communicate statistical findings and enhance data interpretation.
+- Analyzed, prepared, and summarized survey data and statistical findings.
+- Combined various data sources into cohesive datasets for statistical analysis.
+- Collaborated with graduate students to develop an **R** package for multidimensional scaling across multiple datasets.
+- Utilized OCR and OpenAI's LLMs to extract and validate information from PDFs.
+
+**Washington University in St. Louis** | August 2022 - Present\
+*Assistant Instructor*
+
+- Assisted in teaching graduate and undergraduate political science courses in classes ranging from 10 to 100 students.
+- Developed weekly assignments, problem sets, and exams to enhance student learning outcomes.
+- Conducted a summer course focusing on applied statistical programming using **R**.
 
 **American Political Science Association** | January 2023 - Present\
 *Editorial Assistant*
 
 - Collaborated with authors to verify and validate replication code in **R**, **Stata**, and **Python**.
 - Reviewed manuscripts for technical accuracy and consistency.
-
-**Utah State University** | May 2020 - October 2020\
-*Undergraduate Research Fellow*
-
-- Collected data on state government officials by querying a **SQL** database and cleaning data in **R**.
-- Modeled the difference between judges appointed in divided and unified government by employing linear regression models in **R**.
-
-**Utah State University** | 2018 - 2021\
-*Advancement Services*: *Data Entry*
-
-- Collected and maintained biographical records of alumni and donations to the university.
 
 ---
 
@@ -103,30 +104,41 @@ Emphasis on American Politics and Political Methodology
 
 **Relevant Coursework:**
 
-- Math Modeling
-- R Programming
-- Quantitative Political Methodology I & II
+- Game Theory
+- Econometrics
+- Statistical Modeling
+- Machine Learning
+- Bayesian Modeling
+- Natural Language Processing
 - Causal Inference
-- Text Analysis
 
 **Utah State University** | May 2021\
 B.A. Political Science, Minors in Japanese and Statistics
 
 ---
 
+## R Packages
+
+- [md2s](https://github.com/peterjbachman/md2s): Multi-Dataset Multidimensional Scaling
+
+---
+
 ## Teaching Experience
 
 **Washington University in St. Louis**
-- *Python Course Teaching Assistant* | August 2023
 - *R Course Instructor* | January 2023
-- *Math Modeling Teaching Assistant* | August 2022 - December 2022
+- *Python Course Assistant Instructor* | August 2023
+- *Math Modeling Assistant Instructor* | August 2022 - December 2022
 
 ---
 
 ## Skills
 
-- Proficient in R, Python, UNIX/MacOS, git, SQL, C++, Stan, and Java
-- Proficient in speaking Japanese
+- *Languages*: Python, R, SQL, HTML
+
+- *Programs*: Git, Tableau
+
+- *Statistical Analysis*: Regression Analysis, Bayesian Modeling, Topic Modeling, Word Embeddings, LLMs, Sentiment Analysis, Text Classification, Causal Inference
 
 ---
 
