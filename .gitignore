@@ -10,3 +10,5 @@
 public/
 /.quarto/
 _site
+
+.jampack/
