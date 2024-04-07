@@ -2,6 +2,7 @@
 title = 'On Spirituality'
 date = 2024-04-07T14:28:11-05:00
 draft = false
+description = 'Spirituality, Mormonism, and Tarot'
 +++
 
 ![The Fool](/images/the_fool.jpg)
