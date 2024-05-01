@@ -8,7 +8,7 @@ I'm a graduate student in Political Science at Washington University in St. Loui
 
 ---
 
-![Me!](profile.avif)
+![Me!](profile.jpg)
 
 When not messing around with text-as-data measures, I like making playlists on [Spotify](https://open.spotify.com/user/x5xyifk4f697kabe2mm1u95p5?si=972ccc2d5bca40cd), reviewing movies I've watched on [Letterboxd](https://letterboxd.com/PeterJBachman/), and reviewing games I've played on [Backloggd](https://www.backloggd.com/u/PeterJBachman/).
 
