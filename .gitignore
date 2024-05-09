@@ -12,3 +12,5 @@ public/
 _site
 
 .jampack/
+
+*.kate-swp
