@@ -30,4 +30,4 @@ If you are familiar with R and R Markdown, then [blogdown](https://bookdown.org/
 install.packages("blogdown")
 ```
 
-test adding some text here to see if signing works on my linux setup
+test adding some text here to see if signing works on my linux setup.
