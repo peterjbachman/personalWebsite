@@ -29,5 +29,3 @@ If you are familiar with R and R Markdown, then [blogdown](https://bookdown.org/
 ```
 install.packages("blogdown")
 ```
-
-test to see if I don't have to use the signing flag
