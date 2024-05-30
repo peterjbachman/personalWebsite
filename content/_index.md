@@ -1,4 +1,4 @@
-I'm a graduate student in Political Science at Washington University in St. Louis, where I used text-as-data methods to better understand the Supreme Court. I have a strong background in statistics, with an emphasis on machine learning, imbalanced data, and text-analysis. 
+I'm a recent Master's graduate in Political Science at Washington University in St. Louis, where I used text-as-data methods to better understand the Supreme Court. I have a strong background in statistics, with an emphasis on machine learning, imbalanced data, and text-analysis.
 
 ---
 
