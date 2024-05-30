@@ -26,7 +26,7 @@ A PDF version can be found [here](/files/resume.pdf)
 ---
 
 ## Work Experience
-**Washington University in St. Louis** | May 2022 - Present\
+**Washington University in St. Louis** | May 2022 - May 2024\
 *Data Science Researcher*
 
 - Managed data processing workflows using **Git**.
@@ -37,14 +37,14 @@ A PDF version can be found [here](/files/resume.pdf)
 - Collaborated with graduate students to develop an **R** package for multidimensional scaling across multiple datasets.
 - Utilized OCR and OpenAI's LLMs to extract and validate information from PDFs.
 
-**Washington University in St. Louis** | August 2022 - Present\
+**Washington University in St. Louis** | August 2022 - May 2024\
 *Assistant Instructor*
 
 - Assisted in teaching graduate and undergraduate political science courses in classes ranging from 10 to 100 students.
 - Developed weekly assignments, problem sets, and exams to enhance student learning outcomes.
 - Conducted a summer course focusing on applied statistical programming using **R**.
 
-**American Political Science Association** | January 2023 - Present\
+**American Political Science Association** | January 2023 - May 2024\
 *Editorial Assistant*
 
 - Collaborated with authors to verify and validate replication code in **R**, **Stata**, and **Python**.
