@@ -23,11 +23,6 @@ ignoreErrors = ["error-disable-taxonomy"]
   blog = "/:slug/"
   tags = "/blog/:slug"
 
-[[menus.main]]
-    name = 'Recommendations'
-    pageRef = '/link-recs.md'
-    weight = 30
-
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
   description = "Political Data Scientist"
@@ -63,3 +58,12 @@ ignoreErrors = ["error-disable-taxonomy"]
         [markup.goldmark.renderer]
             hardWraps = true
 
+[menus]
+  [[menus.main]]
+    name = 'Blog'
+    url = 'https://hotspring.pika.page/'
+    weight = 30
+  [[menus.main]]
+    name = 'Resume'
+    pageRef = '/resume'
+    weight = 20

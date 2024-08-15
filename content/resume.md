@@ -1,13 +1,10 @@
 ---
 title: "Resume"
-menu:
-  main:
-    name: "Resume"
 ---
 
 # Resume
 
-A graduate student in Political Science at Washington University in St. Louis, using text-as-data methods to better understand the Supreme Court. Expertise in statistics, with an emphasis on machine learning, imbalanced data, and text-analysis.
+A Master's graduate in Political Science at Washington University in St. Louis, using text-as-data methods to better understand the Supreme Court. Expertise in statistics and data analytics, with an emphasis on machine learning, imbalanced data, and text-analysis.
 
 A PDF version can be found [here](/files/resume.pdf)
 
@@ -26,29 +23,36 @@ A PDF version can be found [here](/files/resume.pdf)
 ---
 
 ## Work Experience
-**Washington University in St. Louis** | May 2022 - May 2024\
-*Data Science Researcher*
 
-- Managed data processing workflows using **Git**.
-- Maintained databases of Twitter posts and comments using **SQL**.
-- Developed visualizations in **Python** and **R** to communicate statistical findings and enhance data interpretation.
-- Analyzed, prepared, and summarized survey data and statistical findings.
-- Combined various data sources into cohesive datasets for statistical analysis.
-- Collaborated with graduate students to develop an **R** package for multidimensional scaling across multiple datasets.
-- Utilized OCR and OpenAI's LLMs to extract and validate information from PDFs.
+**Washington University in St. Louis - Weidenbaum Center** | August 2024 - Present\
+*Contract Statistical Data Analyst I*
 
-**Washington University in St. Louis** | August 2022 - May 2024\
-*Assistant Instructor*
-
-- Assisted in teaching graduate and undergraduate political science courses in classes ranging from 10 to 100 students.
-- Developed weekly assignments, problem sets, and exams to enhance student learning outcomes.
-- Conducted a summer course focusing on applied statistical programming using **R**.
+- Developed data visualizations in **Python** and **R** to communicate statistical findings and enhance interpretation.
+- Reviewed, cleaned, and updated existing code to ensure the consistent replication of statistical findings.
 
 **American Political Science Association** | January 2023 - May 2024\
 *Editorial Assistant*
 
 - Collaborated with authors to verify and validate replication code in **R**, **Stata**, and **Python**.
 - Reviewed manuscripts for technical accuracy and consistency.
+
+**Washington University in St. Louis - Department of Political Science** | August 2022 - May 2024\
+*Assistant Instructor*
+
+- Instructed students in multiple courses about the importance of data, data analysis, and various political concepts. 
+- Assisted in teaching graduate and undergraduate political science courses in classes ranging from 10 to 100 students.
+- Developed weekly assignments, problem sets, and exams to enhance student learning outcomes.
+- Conducted a summer course focusing on applied statistical programming and data analysis using **R**.
+
+**Washington University in St. Louis - Department of Political Science** | May 2022 - May 2024\
+*Data Science Researcher*
+
+- Prepared, analyzed, and summarized survey data and statistical results.
+- Managed and improved data processing workflows across multiple projects using **Git**.
+- Combined various data sources into cohesive datasets for statistical analysis.
+- Led a team of graduate students to develop an **R** package for multidimensional scaling across multiple datasets.
+- Utilized OCR and LLMs to extract and validate information from PDFs, improving existing processes.
+- Maintained databases of Twitter posts and comments using **SQL**.
 
 ---
 
@@ -100,7 +104,7 @@ A PDF version can be found [here](/files/resume.pdf)
 
 **Washington University in St. Louis** | May 2024\
 M.A. Political Science \
-Emphasis on American Politics and Political Methodology
+Emphasis on Statistics and American Politics
 
 **Relevant Coursework:**
 
@@ -111,9 +115,10 @@ Emphasis on American Politics and Political Methodology
 - Bayesian Modeling
 - Natural Language Processing
 - Causal Inference
+- Public Opinion
 
 **Utah State University** | May 2021\
-B.A. Political Science, Minors in Japanese and Statistics
+B.A. Political Science, Minors in Statistics and Japanese
 
 ---
 
