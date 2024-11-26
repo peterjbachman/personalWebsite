@@ -4,7 +4,9 @@ title: "Resume"
 
 # Resume
 
-A Master's graduate in Political Science at Washington University in St. Louis, using text-as-data methods to better understand the Supreme Court. Expertise in statistics and data analytics, with an emphasis on machine learning, imbalanced data, and text-analysis.
+A Master's graduate in Political Science at Washington University in St. Louis
+My research used text-as-data methods to better understand the Supreme Court.
+Expertise in research, statistics, data analytics, with an emphasis on machine learning, imbalanced data, and text-analysis.
 
 A PDF version can be found [here](/files/resume.pdf)
 
