@@ -27,8 +27,10 @@ A PDF version can be found [here](/files/resume.pdf)
 **Washington University in St. Louis - Weidenbaum Center** | August 2024 - Present\
 *Contract Statistical Data Analyst I*
 
-- Developed data visualizations in **Python** and **R** to communicate statistical findings and enhance interpretation.
-- Reviewed, cleaned, and updated existing code to ensure the consistent replication of statistical findings.
+- Audited, cleaned, and updated existing data and code to ensure the accuracy of statistical findings.
+- Standardized data across five related databases.
+- Wrote supporting documentation, outlining the databases and procedures to follow in code replication.
+- Developed data visualizations to communicate statistical analyses and enhance interpretation.
 
 **American Political Science Association** | January 2023 - May 2024\
 *Editorial Assistant*
@@ -53,6 +55,14 @@ A PDF version can be found [here](/files/resume.pdf)
 - Led a team of graduate students to develop an **R** package for multidimensional scaling across multiple datasets.
 - Utilized OCR and LLMs to extract and validate information from PDFs, improving existing processes.
 - Maintained databases of Twitter posts and comments using **SQL**.
+
+
+**Utah State University - Advancement Services** | August 2018 - May 2024
+*Data Entry*
+
+- Updated records of gifts to the university and helped track donations across alumni using CRM software.
+- Validated the accuracy of archived transcripts with a digital database.
+- Collected and maintained biographical records of alumni using LexisNexis to find important events.
 
 ---
 
@@ -141,7 +151,7 @@ B.A. Political Science, Minors in Statistics and Japanese
 
 - *Languages*: Python, R, SQL, HTML
 
-- *Programs*: Git, Tableau
+- *Programs*: Git, Tableau, CRM Software
 
 - *Statistical Analysis*: Regression Analysis, Bayesian Modeling, Topic Modeling, Word Embeddings, LLMs, Sentiment Analysis, Text Classification, Causal Inference
 
